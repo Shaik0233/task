@@ -1,0 +1,25 @@
+/* Responsive Design */
+@media (max-width: 768px) {
+    .text-container{
+      background-size: cover;
+    }
+    .cooking {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .menu_items {
+      flex-direction: column;
+    }
+  
+    .booking {
+      flex-direction: column;
+    }
+  
+    .about2 {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+  }
+  

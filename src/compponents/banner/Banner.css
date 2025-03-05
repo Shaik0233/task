@@ -1,0 +1,83 @@
+/* Banner Section */
+.banner-content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("/public/images/food_bg.jpg") no-repeat center center/cover;
+  text-align: center;
+  
+}
+
+/* Main Container */
+.text-container {
+  max-width: 80%;
+}
+
+.main-heading {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.sub-heading {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+/* Button */
+.reserve {
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  color: white;
+  background: #ff6347;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.reserve:hover {
+  background: #d94b32;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .banner-content {
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url("/public/images/food_bg.jpg") no-repeat center center/cover;
+    text-align: center;
+    
+  }
+  .main-heading {
+    font-size: 2.5rem;
+  }
+
+  .sub-heading {
+    font-size: 1.2rem;
+  }
+
+  .reserve {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-heading {
+    font-size: 2rem;
+  }
+
+  .sub-heading {
+    font-size: 1rem;
+  }
+
+  .text-container {
+    max-width: 90%;
+  }
+}
