@@ -12,7 +12,7 @@
 }
 
 .main-heading {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -37,44 +37,4 @@
 
 .reserve:hover {
   background: #dd2f10;
-}
-
-/* Responsive Design */
-@media (max-width: 600px) {
-  .banner-content {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: url("/public/images/food_bg.jpg") no-repeat center center/cover;
-    text-align: center;
-    
-    
-  }
-  .main-heading {
-    font-size: 2.5rem;
-  }
-
-  .sub-heading {
-    font-size: 1.2rem;
-  }
-
-  .reserve {
-    font-size: 1rem;
-    padding: 10px 20px;
-  }
-}
-
-@media (max-width: 480px) {
-  .main-heading {
-    font-size: 2rem;
-  }
-
-  .sub-heading {
-    font-size: 1rem;
-  }
-
-  .text-container {
-    max-width: 90%;
-  }
 }
