@@ -1,0 +1,21 @@
+.card{
+    width: 200px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ccc;
+}
+.card-header img{
+    width: 100%;
+    height: 200px;
+}
+/* .card:hover{
+    background-color: #ff5722;
+    color: white;
+    padding: 10px;
+} */
+@media (max-width: 430px) {
+    .card{
+        width: 152px;
+    }
+}

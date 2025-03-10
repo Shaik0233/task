@@ -10,6 +10,7 @@ function Home() {
     <Cooking/>
     <Menu/>
     <Footer/>
+    
     </>
   )
 }

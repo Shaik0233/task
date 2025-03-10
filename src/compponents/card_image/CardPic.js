@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../card_image/CardPic.css";
 const cardData = [
   {
     id: 1,
@@ -24,14 +24,15 @@ const cardData = [
 function CardPic() {
   return (
     <>
-      {cardData.map((card) => (
-        <div key={card.id} className="card">
+      {cardData.map((item, index) => (
+        
+        <div key={item.id} className="card">
           <div className="card-header">
-            <img src={card.image} alt="Food" />
+            <img src={item.image} alt="Food" />
           </div>
           <div className="card-body">
-            <p>{card.date}</p>
-            <p>{card.title}</p>
+            <p>{item.date}</p>
+            <p>{item.title}</p>
           </div>
         </div>
       ))}
